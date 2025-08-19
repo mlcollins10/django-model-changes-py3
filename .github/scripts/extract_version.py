@@ -15,9 +15,9 @@ def extract_version_from_setup_py(file_path="setup.py"):
 
         # Simple regex to capture the version string between quotes
         pattern = r'version\s*=\s*[\'"]([^"\']+)[\'"]'
-        
+
         match = re.search(pattern, content)
-        
+
         if match:
             return match.group(1)
         else:
