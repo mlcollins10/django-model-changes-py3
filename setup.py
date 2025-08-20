@@ -8,9 +8,9 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name="django-model-changes-py3",
-    version="0.16.2",
+    version="0.16.3",
     packages=find_packages(exclude=["tests"]),
-    license="MIT License",
+    license="MIT",
     description="django-model-changes allows you to track model instance changes.",
     long_description=README,
     url="http://github.com/iansprice/django-model-changes-py3",
@@ -20,7 +20,6 @@ setup(
         "Environment :: Web Environment",
         "Framework :: Django",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
